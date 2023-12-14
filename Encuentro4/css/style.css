@@ -1,0 +1,20 @@
+/* 
+Diferentes maneras de conectar de dar estilos a nuestras etiquetas
+-por elmento
+-por atributo de clase
+*/
+* {
+  margin: 0;
+}
+header {
+  background-color: cadetblue;
+  padding: 5rem;
+}
+
+header > nav {
+  text-align: center;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  margin: 10px;
+}

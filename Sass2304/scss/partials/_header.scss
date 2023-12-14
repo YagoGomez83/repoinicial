@@ -1,0 +1,23 @@
+$color: white;
+$color2: black;
+header {
+  background-color: blueviolet;
+  padding: 5rem;
+  nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    a {
+      text-decoration: none;
+      color: $color;
+      margin: 0 0.5rem 0 0.5rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: x-large;
+      &:hover {
+        color: $color2;
+        transition: color 0.5s ease;
+      }
+    }
+  }
+}
